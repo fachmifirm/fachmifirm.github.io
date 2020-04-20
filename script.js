@@ -59,7 +59,7 @@ ctx.rotate(Math.PI / 30);
 ctx.translate(-rect4.x - rect4.width / 2, -rect4.y - rect4.height / 2);
 ctx.fillRect(rect4.x, rect4.y, rect4.width, rect4.height);
 
-image.src = "https://i.ibb.co/F7yQT2Z/10.png";
+image.src = "10.png";
 image.onload = function() {
 
     ctx.drawImage(image, 800, 350, 200, 300);
